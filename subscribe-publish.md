@@ -69,6 +69,7 @@ channel.queue_bind(exchange='logs',queue=result.method.queue)
 
 và ta kiểm tra `rabbitmqctl list_bindings`
 
+<img src="http://i.imgur.com/qEp5dzy.png">
 
 ##Code
 
