@@ -75,6 +75,8 @@ và ta kiểm tra `rabbitmqctl list_bindings`
 
 Mục tiêu tạo một exchange là logs và một consumer định nghĩa một queue được rabbitmq tự đặt tên. Khi producer đẩy message vào rabbit thì exchange sẽ đẩu message vào queue mà consumer định nghĩa
 
+<img src="http://i.imgur.com/zEVGdmf.png">
+
 ### producer.py
 
 ```
