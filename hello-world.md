@@ -39,7 +39,18 @@ channel.basic_publish(exchange='',routing_key='hello',body='Hello World!')
 connection.close()
 
 ```
+#### Giải thích một số câu lệnh
+- dòng 1: khai báo thư viện pika
 
+- dòng 2: tạo kết nối TCP tới RabbitMQ-server tại địa chỉ 172.17.0.2. Nếu rabbitmq-server của các bạn có địa chỉ khác và port khác thì phải sửa tại đây
+
+- dòng 3: tạo một channel bên trong kết nối TCP vừa tạo
+
+- dòng 4: Định nghĩa queue name là hello
+
+- dòng 5: publish message queue vào rabbitmq-serer có body là nội dung message `Hello World!`
+
+- dòng 6: đóng kết nối TCP
 Kiểm tra queue có trong rabbit 
 
 <img src="http://i.imgur.com/xrECTbv.png">
@@ -63,6 +74,13 @@ channel.start_consuming()
 connection.close()
 
 ```
+##### Giải thích một số câu lệnh
+
+- hàm callback để in ra chuỗi nhận được
+
+- basic_consum(): subscribe với queue name  là `hello`
+
+- start_consuming(): bắt đầu consume
 
 Kiểm tra queue trong rabbitMQ 
 
