@@ -20,7 +20,7 @@
 <img src="http://www.rabbitmq.com/img/management/overview.png">
 
 - Và từ đây sẽ cung cấp cho ta HTTP Restfull API người dùng có thể phát triển cho ứng dụng của họ.
-- Để tìm hiểu thêm về tài liệu API truy cập tại đây (API Rabbit)[https://raw.githack.com/rabbitmq/rabbitmq-management/rabbitmq_v3_6_0/priv/www/api/index.html]
+- Để tìm hiểu thêm về tài liệu API truy cập tại đây [API Rabbit](https://raw.githack.com/rabbitmq/rabbitmq-management/rabbitmq_v3_6_0/priv/www/api/index.html)
 
 ### API 
 
